@@ -1,0 +1,81 @@
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Сторінка портфоліо</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <li><a href="#aboutme">Про мене</a></li>
+            <li><a href="#aboutgame">Про гру</a></li>
+            <li><a href="#game">Гра</a></li>
+            <li><a href="#contact">Зворотній зв`язок</a></li>
+        </nav>
+    </header>
+    <div>
+        <h2 id="aboutme">Про мене</h2>
+        <p>Мене звати Антонов Роман, створюю десктопні програми на замовлення на мовах C++, C#</p>
+        <p>А зараз проходжу курс з основ Frontend розробки </p>
+    </div>
+
+    <div>
+        <h2 id="aboutgame">Про гру</h2>
+        <p>2048. Всі знають правила, розповідати нічого</p>
+        <div class="galery">
+            <img src="/Prometheus/portfolio-website/icons/GamePicture1.png" alt="game_picture_1" width="80" height="80"
+                style="margin: 5;">
+            <img src="/Prometheus/portfolio-website/icons/GamePicture1.png" alt="game_picture_2" width="80" height="80"
+                style="margin: 5;">
+            <img src="/Prometheus/portfolio-website/icons/GamePicture1.png" alt="game_picture_3" width="80" height="80"
+                style="margin: 5;">
+            <img src="/Prometheus/portfolio-website/icons/GamePicture1.png" alt="game_picture_4" width="80" height="80"
+                style="margin: 5;">
+        </div>
+    </div>
+
+    <div>
+        <h2 id="game">2048</h2>
+        <div class="game_container">
+            <div class="upper_div">
+                <div class="game_cell">
+                    <p style="text-align: center;">2</p>
+                </div>
+
+                <div class="game_cell">
+                    <p style="text-align: center;">2</p>
+                </div>
+
+                <div class="game_cell">
+                    <p style="text-align: center;">4</p>
+                </div>
+
+                <div class="game_cell">
+                    <p style="text-align: center;">4</p>
+                </div>
+            </div>
+
+            <div class="bottom_div">
+                <p style="text-align: center;">Score: 0</p>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h2 id="contact">Зворотній зв`язок</h2>
+        <form action="Post" style="background-color: rgb(247, 218, 125); width: 250;">
+            <label for="name">Name</label>
+            <input type="text" name="name_user" id="name">
+
+            <label for="email">Email</label>
+            <input type="email" name="email_user" id="email">
+
+            <label for="message">Message</label>
+            <input type="message" name="message_user" id="message">
+
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
